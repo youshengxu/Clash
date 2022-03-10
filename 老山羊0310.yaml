@@ -6,19 +6,38 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: Relay_🇨🇳CN-🇺🇸US_491, server: g6.gs1024.com, port: 61232, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g6.gs1024.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_490, server: g3.gs1024.com, port: 21227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g3.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: 106.75.233.91, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_469, server: iplc.gs1024.com, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: iplc.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 5, server: 20.89.238.230, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇬SG_489, server: g9.gs1024.com, port: 61233, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g9.gs1024.com, skip-cert-verify: true, udp: true}
-  - {name: IN_879, server: 172.105.59.32, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_388, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ZZ_3058, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3718, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_3360, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_3428, server: 134.195.196.81, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: IR_901, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: ZZ_3367, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_3426, server: 134.195.196.81, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_3059, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3415, server: 134.195.196.81, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 6, server: 106.75.233.91, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_477, server: 117.185.229.24, port: 21231, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 7, server: 123.59.87.29, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public) 9, server: 112.15.9.146, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public) 7, server: 112.15.9.146, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 印度(绿头外网集团)(Public), server: 183.240.132.27, port: 21228, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_470, server: jp.gs1024.com, port: 21229, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: jp.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_493, server: g3.gs1024.com, port: 21225, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g3.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: AU_89, server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_483, server: g3.gs1024.com, port: 21224, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: g3.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: 104.208.112.171, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_495, server: 117.185.229.24, port: 21224, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_494, server: jp.gs1024.com, port: 21231, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: jp.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public) 12, server: 116.129.253.191, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: 117.185.229.24, port: 61233, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public) 3, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: 116.129.253.227, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 油管 TG 8度科技 2, server: gongyisg1.yigeweizhuang.com, port: 2096, type: vmess, uuid: a94446e3-be9c-4240-9bdf-9b88155a7eb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gongyisg1.yigeweizhuang.com}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 4, server: 116.129.253.187, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public), server: 60.249.3.231, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public) 4, server: 116.129.253.191, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 台灣(绿头外网集团)(Public) 5, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: 116.129.253.227, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: US_2869, server: 89.208.248.114, port: 443, type: vmess, uuid: ef1af6e9-2029-4d16-9fc5-c23ff022f143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 89.208.248.114}, udp: true}
+  - {name: NONE, server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: true, udp: true}
+  - {name: NONE 2, server: iplc.gs1024.com, port: 20227, type: trojan, password: 1b693eb3-3241-362a-9001-5b503789cfbe, sni: iplc.gs1024.com, skip-cert-verify: true, udp: true}
+  - {name: "", server: 64.227.76.201, port: 56633, type: vmess, uuid: da0e5348-e2b6-4fff-e482-f8e137780ebd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_1197, server: 8.210.55.7, port: 46353, type: vmess, uuid: e78a8677-f7b0-4be4-b76f-3b91176f37c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -26,38 +45,76 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -65,19 +122,38 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -97,23 +173,50 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 香港(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 12
+      - 台灣(绿头外网集团)(Public) 3
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -121,38 +224,76 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -160,19 +301,38 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,19 +349,38 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Relay_🇨🇳CN-🇺🇸US_491
-      - Relay_🇨🇳CN-🇩🇪DE_490
+      - 日本(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇸🇬SG_469
+      - 日本(绿头外网集团)(Public) 5
       - Relay_🇨🇳CN-🇸🇬SG_489
-      - IN_879
-      - Relay_🇨🇳CN-🇩🇪DE_388
-      - ZZ_3058
-      - ZZ_3718
-      - ZZ_3360
-      - ZZ_3428
-      - IR_901
-      - ZZ_3367
-      - ZZ_3426
-      - ZZ_3059
-      - ZZ_3415
+      - 日本(绿头外网集团)(Public) 6
+      - Relay_🇨🇳CN-🇺🇸US_477
+      - 日本(绿头外网集团)(Public) 7
+      - 台灣(绿头外网集团)(Public) 9
+      - 台灣(绿头外网集团)(Public) 7
+      - 印度(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇷🇺RU_470
+      - Relay_🇨🇳CN-🇨🇳CN_493
+      - AU_89
+      - Relay_🇨🇳CN-🇺🇸US_483
+      - 香港(绿头外网集团)(Public)
+      - Relay_🇨🇳CN-🇺🇸US_495
+      - Relay_🇨🇳CN-🇺🇸US_494
+      - 台灣(绿头外网集团)(Public) 12
+      - 新加坡(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 2
+      - 油管 TG 8度科技 2
+      - 日本(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public)
+      - 台灣(绿头外网集团)(Public) 4
+      - 台灣(绿头外网集团)(Public) 5
+      - 日本(绿头外网集团)(Public) 3
+      - US_2869
+      - NONE
+      - NONE 2
+      - ""
+      - SG_1197
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
